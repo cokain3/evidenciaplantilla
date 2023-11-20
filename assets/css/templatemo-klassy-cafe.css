@@ -121,12 +121,12 @@ body {
 
 ::selection {
   background: #6829b6;
-  color: #230202;
+  color: #c817a7;
 }
 
 ::-moz-selection {
   background: rgb(177, 73, 251);
-  color: #2b0707;
+  color: #c817a7;
 }
 
 @media (max-width: 991px) {
@@ -147,8 +147,8 @@ body {
 
 .main-white-button a {
   font-size: 13px;
-  color: #390c08;
-  background-color: #631a1a;
+  color: #ffffff;
+  background-color: #73129a;
   padding: 12px 25px;
   display: inline-block;
   border-radius: 3px;
@@ -251,7 +251,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  color: #fff;
+  color: rgb(245, 141, 245) ;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -535,7 +535,7 @@ header
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 100px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -657,7 +657,7 @@ banner
 }
 
 #top .left-content {
-  background-image: url(../images2/bgleftbg.jpg);
+  background-image: url(../images2/bg3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -675,7 +675,9 @@ banner
 
 #top .left-content h4 {
   font-family: 'Dancing Script', cursive;
-  color: #fff;
+  color: purple;
+  -webkit-text-stroke: #000 0.7px;
+  text-shadow: 0 0 30px #fff;
   font-size: 54px;
   font-weight: 700;
 }
@@ -684,7 +686,9 @@ banner
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff;
+  color: purple;
+  -webkit-text-stroke: #000 0.7px;
+  text-shadow: 0 0 30px #fff;
   letter-spacing: 3px;
   margin-top: 5px;
 }
@@ -885,7 +889,7 @@ about
   line-height: 70px;
   text-align: center;
   background-color: rgb(177, 73, 251);
-  color: #fff;
+  color: #870881;
   border-radius: 50%;
   transform: translate(-35px, -35px);
   transition: all .3s;
